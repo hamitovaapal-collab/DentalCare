@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DentalCare — Modern Dental Clinic in Bishkek</title>
+<meta name="description" content="DentalCare: personalized dental care, advanced technology and an experienced team. Book your visit online. EN / RU / KY.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+ <div class="wrap nav-in">
+  <a href="#home" class="logo"><b>◆</b> DentalCare</a>
+  <nav id="menu" aria-label="Main">
+   <a href="#home" data-i="home"></a><a href="#about" data-i="about"></a><a href="#services" data-i="services"></a><a href="#team" data-i="team"></a><a href="#reviews" data-i="reviews"></a><a href="#blog" data-i="blog"></a><a href="#contact" data-i="contact"></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language"><button data-l="ky">KY</button><button data-l="ru">RU</button><button data-l="en">EN</button></div>
+  <a href="#book" class="btn sm" data-i="book"></a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <i class="orb o1"></i><i class="orb o2"></i>
+ <div class="wrap hero-in">
+  <div class="rv">
+   <p class="eyebrow" data-i="eyebrow"></p>
+   <h1 data-i="h1"></h1>
+   <p class="lead" data-i="sub"></p>
+   <div class="cta"><a href="#book" class="btn" data-i="book"></a><a href="#services" class="btn ghost" data-i="explore"></a></div>
+   <ul class="feat"><li data-i="f1"></li><li data-i="f2"></li><li data-i="f3"></li></ul>
+  </div>
+  <div class="collage">
+   <img class="c1 float" src="images/hero1.jpg" alt="Dentist treating a patient" data-lb>
+   <img class="c2 float d1" src="images/hero2.jpg" alt="Our dental team" data-lb>
+   <img class="c3 float d2" src="images/hero3.jpg" alt="Happy patient smiling" data-lb>
+   <img class="c4 float d3" src="images/hero4.jpg" alt="Modern dental equipment" data-lb>
+   <div class="badge float d1">✔ <span data-i="trust"></span></div>
+  </div>
+ </div>
+</section>
+
+<section class="strip"><div class="wrap three">
+ <div><b data-i="s_a"></b><span data-i="s_a2"></span></div><div><b data-i="s_b"></b><span data-i="s_b2"></span></div><div><b data-i="s_c"></b><span data-i="s_c2"></span></div>
+</div></section>
+
+<section class="sec" id="about"><div class="wrap about">
+ <div class="rv"><img class="photo" src="images/clinic.jpg" alt="Modern clinic interior" data-lb loading="lazy"><button class="play" id="vid" aria-label="Clinic tour"></button></div>
+ <div class="rv">
+  <p class="eyebrow" data-i="about"></p><h2 data-i="ab_t"></h2><p data-i="ab_p"></p>
+  <div class="stats">
+   <div><b data-n="20">0</b>+<span data-i="st1"></span></div><div><b data-n="5000">0</b>+<span data-i="st2"></span></div><div><b data-n="98">0</b>%<span data-i="st3"></span></div>
+  </div>
+  <a href="#team" class="btn" data-i="learn"></a>
+ </div>
+</div></section>
+
+<section class="sec tint" id="services"><div class="wrap">
+ <p class="eyebrow rv" data-i="services"></p><h2 class="rv" data-i="sv_t"></h2><p class="rv sub" data-i="sv_p"></p>
+ <div class="grid6" id="svc"></div>
+</div></section>
+
+<section class="sec" id="process"><div class="wrap">
+ <p class="eyebrow rv" data-i="pr_e"></p><h2 class="rv" data-i="pr_t"></h2>
+ <div class="steps" id="steps"></div>
+</div></section>
+
+<section class="sec tint" id="team"><div class="wrap">
+ <p class="eyebrow rv" data-i="team"></p><h2 class="rv" data-i="tm_t"></h2>
+ <div class="grid3" id="docs"></div>
+</div></section>
+
+<section class="why"><div class="wrap why-in">
+ <img src="images/hero1.jpg" alt="Dentist with patient" class="rv" data-lb loading="lazy">
+ <div class="rv"><h2 data-i="wh_t"></h2><p data-i="wh_p"></p><a href="#book" class="btn light" data-i="visit"></a></div>
+</div></section>
+
+<section class="sec" id="reviews"><div class="wrap">
+ <p class="eyebrow rv" data-i="reviews"></p><h2 class="rv" data-i="rv_t"></h2>
+ <div class="car" aria-roledescription="carousel">
+  <button class="arr" id="prev" aria-label="Previous">‹</button>
+  <div class="track-w"><div class="track" id="track"></div></div>
+  <button class="arr" id="next" aria-label="Next">›</button>
+ </div>
+ <div class="dots" id="dots"></div>
+</div></section>
+
+<section class="sec tint" id="blog"><div class="wrap">
+ <p class="eyebrow rv" data-i="blog"></p><h2 class="rv" data-i="bl_t"></h2>
+ <div class="grid4" id="posts"></div>
+</div></section>
+
+<section class="sec" id="book"><div class="wrap book">
+ <div class="rv"><p class="eyebrow" data-i="ap_e"></p><h2 data-i="ap_t"></h2><p data-i="ap_p"></p></div>
+ <form id="form" class="rv" novalidate>
+  <label><span data-i="f_name"></span><input name="n" required autocomplete="name"><em></em></label>
+  <label><span data-i="f_phone"></span><input name="p" type="tel" required autocomplete="tel" placeholder="+996 555 123 456"><em></em></label>
+  <label><span data-i="f_svc"></span><select name="s" id="fs" required></select><em></em></label>
+  <label><span data-i="f_date"></span><input name="d" type="date" required><em></em></label>
+  <label class="full"><span data-i="f_msg"></span><textarea name="m" rows="3"></textarea></label>
+  <button class="btn full" data-i="f_send"></button>
+  <p id="ok" class="ok" role="status" hidden></p>
+ </form>
+</div></section>
+
+<section class="sec tint" id="contact"><div class="wrap contact">
+ <div class="rv"><p class="eyebrow" data-i="contact"></p><h2 data-i="ct_t"></h2>
+  <p>📍 <span data-i="addr"></span></p><p>☎ <a href="tel:+996555123456">+996 555 123 456</a></p><p>✉ <a href="mailto:info@dentalcare.example">info@dentalcare.example</a></p>
+  <h3 data-i="hrs_t"></h3><p data-i="hrs"></p>
+  <p class="note" data-i="note"></p></div>
+ <div class="map rv" role="img" aria-label="Map"><i></i><span class="pin">◆</span><a class="btn light" target="_blank" rel="noopener" href="https://www.openstreetmap.org/search?query=Bishkek%20Chuy%20Avenue" data-i="map"></a></div>
+</div></section>
+</main>
+
+<footer><div class="wrap foot">
+ <div><a href="#home" class="logo"><b>◆</b> DentalCare</a><p data-i="tag"></p></div>
+ <div><h4 data-i="services"></h4><ul id="fsv"></ul></div>
+ <div><h4 data-i="contact"></h4><p>+996 555 123 456<br>info@dentalcare.example</p></div>
+ <div><h4 data-i="hrs_t"></h4><p data-i="hrs"></p><a href="#home" class="btn sm" data-i="top"></a></div>
+</div><p class="copy">© 2026 DentalCare. <span data-i="rights"></span></p></footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" hidden><div class="mbox"><button class="x" id="mx" aria-label="Close">×</button><div id="mc"></div></div></div>
+<script src="script.js"></script>
+</body>
+</html>
